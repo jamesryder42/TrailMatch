@@ -16,9 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+from django.views.generic.base import TemplateView
 
 urlpatterns = [
     path("", include("trailapp.urls")),
     path('admin/', admin.site.urls),
+    # Displays frontend code via webpack; TODO: remove later
+    path('hello-webpack/', TemplateView.as_view(template_name='hello_webpack.html')),
 ]
 urlpatterns += staticfiles_urlpatterns()
