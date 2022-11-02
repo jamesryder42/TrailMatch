@@ -1,0 +1,10 @@
+{% extends "hello/layout.html" %}
+{% block title %}
+Home
+{% endblock %}
+{% block content %}
+{% load static %}
+<h2> Welcome To TrailMatch! </h2>
+<img src="{% static 'hello/m.jpg' %}" alt="My image" width=550 height=600/>
+
+{% endblock %}
