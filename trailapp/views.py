@@ -3,6 +3,9 @@ import re
 from django.utils.timezone import datetime
 from django.http import HttpResponse
 from django.shortcuts import render
+from django.views.generic.base import TemplateView
+
+
 # Replace the existing home function with the one below
 def home(request):
     return render(request, "../templates/hello/home.html")
@@ -22,4 +25,5 @@ def hello_there(request, name):
             'date': datetime.now()
         }
     )
-print("http://127.0.0.1:8000/hello/James")
+
+#print("http://127.0.0.1:8000/hello/James")
