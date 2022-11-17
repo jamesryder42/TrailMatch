@@ -4,6 +4,10 @@ This README is intended for dev use only and is **not** the final README for the
 ## Setting Up the Project
 To setup for development, you need to install a few things. First, make sure you have Python installed. Then, you need to install Django using `pip install django` in your terminal. Next, install [npm and Node.js](https://nodejs.org/en/download/) to get the JavaScript package manager. After that, move to the **root directory** of the project and run `npm install` which will install all JavaScript dependencies needed. That's all for dependencies!
 
+If you're using Firefox, **make sure to open the site in a private tab.** It won't work
+in a regular tab because of how Firefox caches site data. Remember to make sure your
+React Developer Tools extension is allowed in private windows as well.
+
 ## Running the Django Server
 Before you can see the website hosted on your local machine, you first need to run the Django server. All you need to do is be at the **root directory** of the project and run `python manage.py runserver`. This will start the website on your local machine and you can view it at `localhost:8000` in your browser. You can change what address and port Django runs the server on using `python manage.py runserver [ipaddress]:[port]`.
 
