@@ -8,7 +8,8 @@
 </head>
 
 <body>
-
+  <div id="root" />
+  <script src="{% static 'index-bundle.js' %}"></script>
   <div class="body-content">
       {% block content %}
       {% endblock %}
@@ -17,12 +18,6 @@
           <p>&copy; 2022</p>
       </footer>
   </div>
-
-
-  <div id="root" />
-  <script src="{% static 'index-bundle.js' %}"></script>
-
-
 
 </body>
 </html>
