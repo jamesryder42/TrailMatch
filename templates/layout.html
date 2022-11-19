@@ -1,23 +1,29 @@
+<!--
+  IMPORTANT: this layout only works for DJANGO PAGES! not any page that needs
+  to use React!! Once React renders, it will overwrite any rendering that
+  Django does.
+-->
+
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8"/>
+    <!-- Use the block title tag to set the title in any child templates -->
     <title>{% block title %}{% endblock %}</title>
-    {% load static %} <!--loads whats in the static folder? -->
+
+    <!-- loads whats in the static folder -->
+    {% load static %}
+
     <link rel="stylesheet" type="text/css" href="{% static 'site.css' %}"/>
 </head>
 
 <body>
-  <div id="root" />
-  <script src="{% static 'index-bundle.js' %}"></script>
-  <div class="body-content">
-      {% block content %}
-      {% endblock %}
-      <hr/>
-      <footer>
-          <p>&copy; 2022</p>
-      </footer>
-  </div>
+  <!--
+    Use the block content tag to set the content of the page in any child
+    templates
+  -->
+  {% block content %}
+  {% endblock %}
 
 </body>
 </html>
