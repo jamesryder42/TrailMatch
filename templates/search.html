@@ -1,0 +1,17 @@
+{% extends "hello/layout.html" %}
+{% block title %}
+Search
+{% endblock %}
+{% block content %}
+<h1>Search Results</h1>
+<p>trails found for {{name}}</p>
+<ul>
+    {% for Trail in object_list %}
+      <li>
+        {{ Trail.trail_name }}, {{ Trail.difficulty }}
+      </li>
+    {% endfor %}
+  </ul>
+
+
+{% endblock %}
