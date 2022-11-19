@@ -1,0 +1,103 @@
+[
+    {
+      "model": "trailapp.Trail",
+      "pk": 1,
+      "fields": {
+        "trail_name": "Lake Royal Trail",
+        "difficulty": "1",
+        "trail_length": 1.9,
+        "maps_link": "https://www.google.com/maps/dir/38.8402362,-77.275978/lake+royal+trail/@38.822912,-77.3021503,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x89b64e09062b2b3d:0x9178e1b5c015c80a!2m2!1d-77.2897197!2d38.8043626"
+      }
+    },
+    {
+        "model": "trailapp.Trail",
+        "pk": 2,
+        "fields": {
+          "trail_name": "Daniel's Run Park Loop",
+          "difficulty": "2",
+          "trail_length": 1.30,
+          "maps_link": "google.com/maps/dir/38.8402362,-77.275978/Daniels+Run+Park,+9712+Barlow+Rd,+Fairfax,+VA+22031/@38.8457327,-77.2875021,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x89b64c201bcda729:0x81f1c33171ec550c!2m2!1d-77.2854915!2d38.8512299"
+        }
+    },
+    {
+        "model": "trailapp.Trail",
+        "pk": 3,
+        "fields": {
+          "trail_name": "Fairfax Cross County Trail",
+          "difficulty": "1",
+          "trail_length": 1.70,
+          "maps_link": "https://www.google.com/maps/place/Gerry+Connolly+Cross+County+Trl,+Fairfax,+VA/@38.861423,-77.2717473,17z/data=!3m1!4b1!4m5!3m4!1s0x89b64d102bf3fb57:0xee1990338ae7cd95!8m2!3d38.861423!4d-77.2695586"
+        }
+    },
+    {
+        "model": "trailapp.Trail",
+        "pk": 4,
+        "fields": {
+          "trail_name": "Long Branch Stream Walk",
+          "difficulty": "1",
+          "trail_length": 2.00,
+          "maps_link": "https://www.google.com/maps?rlst=f&lqi=Ch9sb25nIGJyYW5jaCBzdHJlYW0gdmFsbGV5IHRyYWlsSLGA4antr4CACFpDEAAQARACEAMQBBgAGAEYAhgDGAQiH2xvbmcgYnJhbmNoIHN0cmVhbSB2YWxsZXkgdHJhaWwqDAgCEAAQARACEAMQBJIBC2hpa2luZ19hcmVhmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU15YTB0aFkySm5FQUXgAQA&phdesc=K6zMKBSdKHI&vet=12ahUKEwisvKDXxov7AhXxUjUKHTG4ACgQ8UF6BAgDEC4..i&lei=7lBgY6yNEvGl1QGx8ILAAg&cs=0&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KSUfDu0aTbaJMf0Sw1Gxegtt&daddr=Annandale,+VA+22003"
+        }
+    },
+    {
+        "model": "trailapp.Trail",
+        "pk": 5,
+        "fields": {
+          "trail_name": "Rocky Run Stream Valley Trail",
+          "difficulty": "3",
+          "trail_length": 6.9,
+          "maps_link": "https://www.google.com/maps?lqi=Ch1yb2NreSBydW4gc3RyZWFtIHZhbGxleSB0cmFpbEjTkJv-5oCAgAhaQRAAEAEQAhADEAQYABgBGAIYAxgEIh1yb2NreSBydW4gc3RyZWFtIHZhbGxleSB0cmFpbCoMCAIQABABEAIQAxAEkgEEcGFya-ABAA&phdesc=YagE6B0rhfg&vet=12ahUKEwjyoZn2x4v7AhUqEFkFHTiYBzcQ8UF6BAgDEBQ..i&lei=O1JgY7KYJqqg5NoPuLCeuAM&cs=0&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=Kb06Kq7tRbaJMTqpG3K5o93C&daddr=12826+Mt+Royal+Ln,+Fairfax,+VA+22033"
+        }
+    },
+    {
+        "model": "trailapp.Trail",
+        "pk": 6,
+        "fields": {
+          "trail_name": "Fair Oaks Loop",
+          "difficulty": "1",
+          "trail_length": 0.7,
+          "maps_link": "https://www.google.com/maps/place/3975+Fair+Ridge+Dr,+Fairfax,+VA+22033/data=!4m2!3m1!1s0x89b64f503f50eba3:0xeaf0bda7bf376a6e?sa=X&ved=2ahUKEwj_7LjBlZ37AhUPGFkFHaoZAs4Q8gF6BAgIEAE"
+        }
+    },
+    {
+        "model": "trailapp.Trail",
+        "pk": 7,
+        "fields": {
+          "trail_name": "Draper Drive Park Loop",
+          "difficulty": "1",
+          "trail_length": 1.80,
+          "maps_link": "https://www.google.com/maps/place/Draper+Drive+Park/@38.8664629,-77.2850578,17z/data=!3m1!4b1!4m5!3m4!1s0x89b64c03cb4b999d:0x9cf409a0ac962436!8m2!3d38.8664587!4d-77.2828691"
+        }
+    },
+    {
+        "model": "trailapp.Trail",
+        "pk": 8,
+        "fields": {
+          "trail_name": "Ox Hill Interpretive Loop",
+          "difficulty": "1",
+          "trail_length": 0.3,
+          "maps_link": "https://www.google.com/maps/place/Ox+Hill+Battlefield+Park/@38.8647381,-77.3701756,15z/data=!4m5!3m4!1s0x0:0xa7dfbc2c2cf10ef8!8m2!3d38.8647381!4d-77.3701756"
+        }
+    },
+    {
+        "model": "trailapp.Trail",
+        "pk": 9,
+        "fields": {
+          "trail_name": "Innovation Park Loop",
+          "difficulty": "1",
+          "trail_length": 1.3,
+          "maps_link": "https://www.google.com/maps/place/8100+Innovation+Park+Dr,+Fairfax,+VA+22031/data=!4m2!3m1!1s0x89b64d148dc1f6f9:0xd6f94210ab13a6ef?sa=X&ved=2ahUKEwi29ZzImJ37AhWoFFkFHTukAmAQ8gF6BAgIEAE"
+        }
+    },
+    {
+        "model": "trailapp.Trail",
+        "pk": 10,
+        "fields": {
+          "trail_name": "Wakefield Park Trail",
+          "difficulty": "4",
+          "trail_length": 6.2,
+          "maps_link": "https://www.google.com/maps/dir//Cross+County+Trail,+Annandale,+VA+22003/@38.8289438,-77.2250424,16.91z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89b64ce396af430f:0x2f213649a583ddcb!2m2!1d-77.2250945!2d38.8287094"
+        }
+    }
+
+  ]

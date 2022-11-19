@@ -7,7 +7,14 @@ from django.shortcuts import render
 from .models import Trail
 from django.db.models import Q
 from django.views.generic.list import ListView
-# Replace the existing home function with the one below
+from trailapp.models import Trail,User
+from trailapp.serializers import TrailSerializer
+from rest_framework import viewsets
+
+class TrailViewSet(viewsets.ModelViewSet):
+    queryset = Trail.objects.all()
+    serializer_class = TrailSerializer
+
 def home(request):
     return render(request, "../templates/hello/home.html")
 

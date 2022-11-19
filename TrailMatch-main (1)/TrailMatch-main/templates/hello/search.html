@@ -7,9 +7,14 @@ Search
 <p>trails found for {{name}}</p>
 <ul>
     {% for Trail in object_list %}
-      <li>
-        {{ Trail.trail_name }}, {{ Trail.difficulty }}
-      </li>
+    <b>{{ Trail.trail_name}}</b>
+    <br>
+    <b>Difficulty:</b>
+    {{ Trail.difficulty }}
+    <br>
+    <b>Length (Miles):</b>
+    {{ Trail.trail_length }}
+    <br></br>
     {% endfor %}
   </ul>
   
