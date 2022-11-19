@@ -1,6 +1,8 @@
 # TrailMatch
 This README is intended for dev use only and is **not** the final README for the project.
 
+
+
 ## Setting Up the Project
 To setup for development, you need to install a few things. First, make sure you have Python installed. Then, you need to install Django using `pip install django` in your terminal. Next, install [npm and Node.js](https://nodejs.org/en/download/) to get the JavaScript package manager. After that, move to the **root directory** of the project and run `npm install` which will install all JavaScript dependencies needed. That's all for dependencies!
 
