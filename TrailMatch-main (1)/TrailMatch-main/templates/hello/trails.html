@@ -1,0 +1,23 @@
+{% extends "hello/layout.html" %}
+{% block title %}
+Trails
+{% endblock %}
+{% block content %}
+{% for Trail in dbTrails %}
+    <b>Name:</b>
+    {{ Trail.trail_name}}
+    <br>
+    <b>Difficulty:</b>
+    {{ Trail.difficulty }}
+    <br>
+    <b>Length (Miles):</b>
+    {{ Trail.trail_length }}
+    <br>
+    <b>Google Maps link:</b>
+    <a href="{{Trail.maps_link}}">Google Maps Link to {{Trail.trail_name}}</a>
+    <br></br>
+{% endfor %}
+{% load static %}
+
+{% endblock %}
+
