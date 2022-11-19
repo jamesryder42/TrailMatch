@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>{% block title %}{% endblock %}</title>
+    {% load static %} <!--loads whats in the static folder? -->
+    <link rel="stylesheet" type="text/css" href="{% static 'site.css' %}"/>
+</head>
+
+<body>
+  <div id="root" />
+  <script src="{% static 'index-bundle.js' %}"></script>
+  <div class="body-content">
+      {% block content %}
+      {% endblock %}
+      <hr/>
+      <footer>
+          <p>&copy; 2022</p>
+      </footer>
+  </div>
+
+</body>
+</html>

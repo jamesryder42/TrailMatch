@@ -22,6 +22,6 @@ urlpatterns = [
     path("", include("trailapp.urls")),
     path('admin/', admin.site.urls),
     # Displays frontend code via webpack; TODO: remove later
-    path('hello-webpack/', TemplateView.as_view(template_name='hello_webpack.html')),
+    # path('hello-webpack/', TemplateView.as_view(template_name='hello_webpack.html')),
 ]
 urlpatterns += staticfiles_urlpatterns()

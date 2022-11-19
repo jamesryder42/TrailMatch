@@ -7,14 +7,17 @@ from django.views.generic.base import TemplateView
 
 
 # Replace the existing home function with the one below
-def home(request):
-    return render(request, "../templates/hello/home.html")
+# def home(request):
+#     return render(request, "../templates/hello/home.html")
+
+def homepage(request):
+    return render(request, "../templates/homepage.html")
 
 def about(request):
-    return render(request, "../templates/hello/about.html")
+    return render(request, "../templates/about.html")
 
 def contact(request):
-    return render(request, "../templates/hello/contact.html")
+    return render(request, "../templates/contact.html")
 
 def hello_there(request, name):
     return render(
