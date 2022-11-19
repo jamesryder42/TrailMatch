@@ -17,7 +17,7 @@ When making changes to the backend, simply running `runserver` won't let you see
 ## Making Changes to JavaScript Code
 Any JavaScript code that is **not considered inline** (pasted directly using the `script` tag) needs to be built using `npm` and registered in `trailsite/urls.py` if it's a new JavaScript file. Please make sure that [npm and Node.js is already installed](https://nodejs.org/en/download/)!
 ### Existing JavaScript Files
-If you are editing an existing JavaScript file, you simply need to make sure the Django server is running in a separate terminal window, open a new terminal window, and run `npm run dev`. This will **continuously compile** JavaScript code until stopped. This means it will immediately compile any changed JavaScript files on the fly. However, the Django server will have to be restarted for each change.
+If you are editing an existing JavaScript file, you simply need to make sure the Django server is running in a separate terminal window, open a new terminal window, and run `npm run dev`. This will **continuously compile** JavaScript code until stopped. This means it will immediately compile any changed JavaScript files on the fly.
 ### New JavaScript Files
 This works the same as an existing file, just with an extra step. If you are using an existing template, skip step 1.
 1) You first need to tell Django where the new template is located in the `trailsite/urls.py` file. If I were adding the template `hello.html`, I would add the line inside `urlpatterns`: `path('hello/', TemplateView.as_view(template_name='hello.html')),`. Make sure to add the comma at the end of this line! That's not a mistake.
